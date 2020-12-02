@@ -1,0 +1,132 @@
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.shubham-profile-pic {
+  width: 200px;
+}
+span {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 90px; /*you may use 5.625em or 5.625rem(root em) which is equivalent to 90px*/
+  font-family: "Major Mono Display", monospace;
+  color: #66bfbf;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.upper-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #11999e;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.web-dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.hacker {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr {
+  width: 20%;
+  border: none;
+  border-top: 10px dotted #eaf6f6;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  height: 80px;
+  padding: 20px 0;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.contact-me-button {
+  box-shadow: inset 0px 1px 0px 0px #2bc4ad;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 8px;
+  border: 1px solid #30e3cb;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 9px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b390cf;
+}
+.contact-me-button:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+}
+.contact-me-button:active {
+  position: relative;
+  top: 1px;
+}
+.footer-link {
+  margin: 10px 20px;
+}
+/* so you can position an element in HTML in css using the position property, so you can define position of an element in 4 different ways and they are static, relative , absolute , and fixed. There are 4 different coordinates as well top bottom left right.
+*/
+/*Talking about static positioning, well we are doing that since the beginning of the course, it is the natural CSS that a browser applies to an HTML code,
+So talking about relative positioning, the relative positioning is relative to where the element would have been displayed if it was just following the natural HTML flow.
+now talking about absolute positioning, well it is a kind of relative positioning only but with a slight difference, and the difference here is the position of an element is relative to its parent's position rather than its natural position which happens to be in relative.
+Fixed positioning is what it will stay there no matter if you scroll down it will stay there. well that is very useful when you are creating a navigation or nav bar.
+*/
+/**************************************************CSS FONTS******************************************************************
+Well there 5 major font families and they are monospace, cursive, fantansy, Serif and san-serif fonts(the first 3 is what you are never gonna use in  your website; monospace is the font in which this code is written and it is what every letter takes equal amount of space and this make reading code easy). so the main difference between these fonts is the feets at the edges of all the letters, and those little feets are called serifs, so a san serif is without feets, the serif is with the feets. by default we have serif family.
+*/
+/*
+so while styling your css you may use different methods to specify your font size pixel percentage etc etc, but there is one more way in which you can define the font size and that is 'em' , well this em is different from the em used in html which was used to emphasise the text or italicised it, here this em actually means the width of 'M"(capital letter M), well nowadays this is no more true as well. But nowadays 1em = 16px = 100%.
+Now em is dynamic just like percentage while pixel is static and it doesn't change upon changing browser setting to large fonts.
+*/
